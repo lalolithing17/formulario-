@@ -1,0 +1,11 @@
+quinceo:-display('Dame A:'),
+	read(A),
+	display('Dame B:'),
+	read(B),
+        display('Dame C:'),
+	read(C),
+	display('Dame D:'),
+	read(D),
+	Y is 5*C^2-D*(A+B*C)^(2/5),
+	display('El resultado de Y='),
+	display(Y).

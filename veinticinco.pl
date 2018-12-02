@@ -1,0 +1,11 @@
+veinticinco:-display('Ingrese a: '),
+	read(A),
+	display('Ingrese b: '),
+	read(B),
+	display('Ingrese c: '),
+	read(C),
+        display('Ingrese e: '),
+        read(E),
+	Y is((C-7*A/B)/E^5+(3/2)*((5*C-8)/(9-A^2))),
+	display(' El valor de Y es : '),
+	display(Y).

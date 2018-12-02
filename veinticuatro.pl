@@ -1,0 +1,11 @@
+veinticuatro:-display('Ingrese a: '),
+	read(A),
+	display('Ingrese b: '),
+	read(B),
+	display('Ingrese c: '),
+	read(C),
+        display('Ingrese d: '),
+        read(D),
+	Y is(4*C*D-8)/(3*B)+(5*(2*A+C)^4)/(7-D),
+	display(' El valor de Y es : '),
+	display(Y).

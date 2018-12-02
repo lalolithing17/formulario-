@@ -1,0 +1,11 @@
+veintiseis:-display('Introduce A: '),
+    read(A),
+    display('Introduce B: '),
+    read(B),
+    display('Introduce C: '),
+    read(C),
+    display('Introduce D: '),
+    read(D),
+    Y is (3*C*A-B^2)*(9/(5-4*C^2)+D),
+    display('El valor de Y es: '),
+    display(Y).

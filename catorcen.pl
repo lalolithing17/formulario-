@@ -1,0 +1,11 @@
+catorcen:-display('Dame A:'),
+	read(A),
+	display('Dame B:'),
+	read(B),
+        display('Dame C:'),
+	read(C),
+	display('Dame D:'),
+	read(D),
+	Y is (A-B)/(3*(5*C+B))+4*(D+3*C)/(2*A),
+	display('El resultado de Y='),
+	display(Y).
